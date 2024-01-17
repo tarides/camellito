@@ -42,7 +42,7 @@ Open the files `lib/task.ml` and `lib/task.mli`.
 
 1. To implement the functions `split_words` and `split_lines` you can the module
    [`Str`](https://v2.ocaml.org/releases/5.1/api/Str.html) with the following
-   regular expressions: `"\r?\n"` `"\\(\\(\r?\n\\)\\| \\|\t\\)+"`
+   regular expressions: `"\r?\n"` and `"\\(\\(\r?\n\\)\\| \\|\t\\)+"`
 
 1. To implement the function `discuss_wc` you need to use the function
    [`Curly.get`](https://ocaml.org/p/curly/latest/doc/Curly/index.html#val-get)

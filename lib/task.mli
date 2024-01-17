@@ -1,7 +1,7 @@
 (** Module [Tasks] contains the functions that need to be implemented.
 
     This file, [task.mli] contains the signature and description of the
-    functions. It should not be modiled. Write your code in the [task.ml] file.
+    functions. It should not be modified.
 
     Write your functions in the file [task.ml]. Replace the dummy content
     [failwith "Not yet implemented"] by your code.
