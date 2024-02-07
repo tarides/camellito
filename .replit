@@ -1,0 +1,13 @@
+compile = ["dune", "build"]
+run = ["dune", "test"]
+entrypoint = "lib/task.ml"
+hidden = ["_build"]
+
+[languages.OCaml]
+pattern = "**/*.{ml,mli}"
+
+[languages.OCaml.languageServer]
+start = "ocamllsp"
+
+[nix]
+channel = "stable-23_11"

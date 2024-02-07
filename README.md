@@ -1,6 +1,14 @@
 ### Get Started
 
+#### Using GitHub Codespaces
+
 Click the green “Code” button, select the _Codespaces_ tab, and create your own. Not too long after, you should be in VS Code inside your browser. Go to the “TERMINAL” tab, extend it and run `dune test`. Tests should fail; this is normal.
+
+#### Using [Replit](https://replit.com/)
+
+You need to have a configured account at https://replit.com/
+
+Click into “Create a Repl”, “Import from GitHub”, “From URL” (use https://github.com/tarides/camellito) and select “Blank Repl” as template. Not too long after, you should be able to edit the `lib/task.ml`. Pressing the “Run” button will launch the test cases.
 
 ### Read some Docs
 
@@ -8,7 +16,7 @@ So that you know, you'll be given access to the documentation you need to use to
 
 ### Code!
 
-Open the files `task.ml` and `task.mli`.
+Open the files `lib/task.ml` and `lib/task.mli`.
 * `task.mli` - describes what the functions should do.
 * `task.ml` - write your code here.
 
