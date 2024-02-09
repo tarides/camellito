@@ -12,7 +12,11 @@ Open the files `task.ml` and `task.mli`.
 * `task.mli` - describes what the functions should do.
 * `task.ml` - write your code here.
 
-**Tip**: To implement function `discuss_wc` you need install package `curly` using Opam.
+**Tips**:
+
+1. To implement the functions `split_words` and `split_lines` you can the module [`Str`](https://v2.ocaml.org/releases/5.1/api/Str.html) with the following regular expressions: `"\r?\n"` `"\\(\\(\r?\n\\)\\| \\|\t\\)+"`
+
+1. To implement function `discuss_wc` you need to use the function [`Curly.get`](https://ocaml.org/p/curly/latest/doc/Curly/index.html#val-get) from package [`curly`](https://github.com/rgrinberg/curly). If you are using Codespace, you'll need to install it using Opam. If you are using Replit, it's already installed.
 
 ### Build and Test
 
