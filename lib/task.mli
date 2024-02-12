@@ -42,8 +42,8 @@ val map : ('a -> 'b) -> 'a list -> 'b list
   the list [[f a1; ...; f an]] with the results returned by [f].
  *)
 
-val range : int -> int -> int list
-(** [range lo hi] returns a list of integers [[lo; lo + 1; ...; hi]]. It
+val span : int -> int -> int list
+(** [span lo hi] returns a list of integers [[lo; lo + 1; ...; hi]]. It
   returns an empty list if [hi < lo]. *)
 
 val split_lines : string -> string list
