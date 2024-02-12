@@ -1,0 +1,9 @@
+{
+    "files.exclude": {
+        "_build": true,
+        ".gitignore": true,
+        ".replit": true,
+        ".vscode": true,
+        "replit.nix": true
+    }
+}
