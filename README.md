@@ -32,10 +32,11 @@ Open the files `lib/task.ml` and `lib/task.mli`.
 
 1. Code samples from the tutorials can be executed in the provided environment.
    Find the terminal tab, launch `utop` command. In the tutorials, copy
-   expressions between `#` and `;;`. In Terminal-Utop, paste the expression and
-   press enter. The output in the Utop should be the same as in the tutorial.
-   You can also enter your expressions, try `2 + 2` for instance (always finish
-   your input by `;;` and enter).
+   expressions after `#`, including the `;;`. In Terminal-Utop, paste the
+   expression and press `Return`. The output in the Utop should be the same as
+   in the tutorial. You can also enter your expressions, try `2 + 2` for
+   instance (always finish your input by `;;` and `Return`). Exit `utop` with
+   `Ctrl+D` or `#quit;;`
 
 1. You may have to delete more than the pragma and the `failwith`.
 
